@@ -4,7 +4,7 @@ Programs in various code - Unified
 # ℹ About
 **Project unicode** is a collection of programs written in various programming languages existing **since 1950's**. After discovering various programming languages which 
 existed previously, i've got an idea to unify them. This repository consist of various folders with different programing problems, whose solution is expressed in 
-programming languages given below<!--(see [here]())-->. This project can help others to discover programming styles of various languages, which can also act as an guide to learn them, too.
+programming languages given below(see [here](https://github.com/harishtpj/Project-Unicode#-programming-languages-used)). This project can help others to discover programming styles of various languages, which can also act as an guide to learn them, too.
 
 # ⚙ Programming languages used
 These programming languages are used to solve various programming problems:
