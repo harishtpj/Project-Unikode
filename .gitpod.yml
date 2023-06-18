@@ -1,17 +1,10 @@
+image:
+  file: .gitpod.Dockerfile
+
 tasks:
-  - init: sudo apt-get update
-
-  - name: Install Lua
-    init: |
-      sudo apt-get install -y lua5.4 lua-socket
-      sudo apt-get install -y luarocks
-      lua -v && luarocks --version && echo 'Lua is Installed Sucessfully'
-
-  - name: Set alias for `cls`
-    init: alias cls='clear'
+  - init: lua -v && luarocks --version && echo 'Lua is Installed Sucessfully'
   
-
-
+  
 vscode:
   extensions:
     - ms-python.python
