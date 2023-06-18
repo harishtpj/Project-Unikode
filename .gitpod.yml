@@ -1,0 +1,23 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: sudo apt-get update
+
+  - name: Install Lua
+    command: |
+      sudo apt-get install -y lua5.4 lua-socket
+      sudo apt-get install -y luarocks
+
+  - name: Set alias for `cls`
+    command: alias cls='clear'
+  
+
+
+vscode:
+  extensions:
+    - ms-python.python
+    - crystal-lang-tools.crystal-lang
+    - Dart-Code.dart-code
+    - PKief.material-icon-theme
+    - sumneko.lua
