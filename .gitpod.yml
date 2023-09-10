@@ -3,8 +3,7 @@ image:
 
 tasks:
   - init: lua -v && luarocks --version && echo 'Lua is Installed Sucessfully'
-  
-  
+
 vscode:
   extensions:
     - ms-python.python
@@ -12,3 +11,6 @@ vscode:
     - Dart-Code.dart-code
     - PKief.material-icon-theme
     - sumneko.lua
+    - rebornix.ruby
+    - wingrunr21.vscode-ruby
+    - kaiwood.endwise
