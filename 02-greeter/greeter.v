@@ -1,4 +1,4 @@
-// Simple Greeter program in Vlang
+// Simple Greeter program in V
 // Created by M.V.Harish Kumar on 20-10-2023
 import os
 

@@ -1,4 +1,4 @@
-// Lua program to sum numbers from 1 to n
+// V program to sum numbers from 1 to n
 // Created by M.V.Harish Kumar on 20-10-2023
 import os {input}
 
