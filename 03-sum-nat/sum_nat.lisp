@@ -2,8 +2,8 @@
 ;;;; Created by M.V.Harish Kumar on 15-11-2023
 
 (defun sum-to-n (n)
-    (loop for i 
-          from 1 
+  (loop for i 
+        from 1 
           to n
         sum i))
 
