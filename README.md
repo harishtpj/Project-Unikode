@@ -44,6 +44,8 @@ Here is also a table for programming languages and its extensions are given:
 | 24   | TypeScript                  | 2012          | `.ts`          |
 | 25   | Julia                       | 2012          | `.jl`          |
 | 26   | V                           | 2019          | `.v`           |
+| 27   | Erlang                      | 1998          | `.erl`         |
+| 28   | Elixir                      | 2014          | `.ex`          |
 
 [^1]: Support for various architectures are been included.
 

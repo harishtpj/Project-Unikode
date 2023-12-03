@@ -4,11 +4,9 @@ The `Number Guesser` game generates a random number between 1 to 100 and prompts
 This problem is taken from collection [1](https://github.com/harishtpj/Project-Unikode/blob/master/README.md#%E2%84%B9-about)
 
 # 🛠 Things used
-- Basic I/O
-- String Format
-- Loops / Conditionals
-- Arrays/Lists
-- Functions
+... Same as the previous problems, plus
+- Random number generation
+- User input prediction
 
 
 # Important observations
