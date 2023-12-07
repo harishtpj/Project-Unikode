@@ -11,6 +11,7 @@ styles of various languages, which can also act as an guide to learn them, too.
 
 The problems specified in this repository uses the following collections:
 1. [Simple Programming Problems](https://adriann.github.io/programming_problems.html) by Adrian Neumann
+2. [99 Functional Programming Problems](https://www.ic.unicamp.br/~meidanis/courses/mc336/problemas-lisp/L-99_Ninety-Nine_Lisp_Problems.html) - The given problems are for lisp, but it is the base for any functional programming language
 
 # ⚙ Programming languages used
 Refer to my github profile [here](https://github.com/harishtpj) for languages used in this project.
@@ -45,7 +46,7 @@ Here is also a table for programming languages and its extensions are given:
 | 25   | Julia                       | 2012          | `.jl`          |
 | 26   | V                           | 2019          | `.v`           |
 | 27   | Erlang                      | 1998          | `.erl`         |
-| 28   | Elixir                      | 2014          | `.ex`          |
+| 28   | Elixir                      | 2014          | `.ex`, `.exs`  |
 
 [^1]: Support for various architectures are been included.
 
