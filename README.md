@@ -21,13 +21,13 @@ Here is also a table for programming languages and its extensions are given:
 |------|-----------------------------|---------------|----------------|
 | 1    | C                           | 1972          | `.c`           |
 | 2    | C++                         | 1983          | `.cpp`         |
-| 3    | Python                      | 1991          | `.py`          |
+| 3    | Python[^1]                  | 1991          | `.py`, `.1.py` |
 | 4    | Java                        | 1995          | `.java`        |
 | 5    | C#                          | 2000          | `.cs`          |
 | 6    | JavaScript                  | 1995          | `.js`          |
 | 7    | PHP                         | 1995          | `.php`         |
 | 8    | Golang                      | 2009          | `.go`          |
-| 9    | Assembly Language[^1]       | 1949          | `.asm`, `.s`   |
+| 9    | Assembly Language[^2]       | 1949          | `.asm`, `.s`   |
 | 10   | Ruby                        | 1995          | `.rb`          |
 | 11   | Rust                        | 2010          | `.rs`          |
 | 12   | Perl                        | 1987          | `.pl`          |
@@ -48,7 +48,8 @@ Here is also a table for programming languages and its extensions are given:
 | 27   | Erlang                      | 1998          | `.erl`         |
 | 28   | Elixir                      | 2014          | `.ex`, `.exs`  |
 
-[^1]: Support for various architectures are been included.
+[^1]: `.1.py` refers to the programs written in python v0.9.1
+[^2]: Support for various architectures are been included.
 
 # ❓ How to use
 The repository has folders named with the programming problem(e.g. `01-hello-world`). Clicking into those 

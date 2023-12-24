@@ -13,4 +13,4 @@ This problem is taken from collection [1](https://github.com/harishtpj/Project-U
 
 # Important observations
 - In Lua, when factorial function uses an integer, it gets overflowed when computing 21!. Thus, float conversion is done by dividing the resultant input by 1.
-- In earlier version of Python(0.9), recursion is not supported, so I had to use loops to solve this problem. Also, the `int()` & `float()` functions doesn't accept string as input, thus the `atoi()` method from `string` module is used.
+- In earlier version of Python(0.9), the `int()` & `float()` functions doesn't accept string as input, thus the `atoi()` method from `string` module is used.
