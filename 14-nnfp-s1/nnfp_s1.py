@@ -1,4 +1,4 @@
-# Solutions to the first 11 problems of the 99 FP series
+# Python Solutions to the first 11 problems of the 99 FP series
 # Written by M.V.Harish Kumar on 14-01-2024
 
 class HList(list):
@@ -13,7 +13,7 @@ class HList(list):
         """ Solves P01 """
         return super().__getitem__(-1)
 
-    def penLast(self) -> object:
+    def penUltimate(self) -> object:
         """ Solves P02 """
         return super().__getitem__(-2)
 
