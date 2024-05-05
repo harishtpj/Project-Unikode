@@ -1,0 +1,3 @@
+# SilkLang program to print "Hello, world!" on stdout
+
+print "Hello, world!";

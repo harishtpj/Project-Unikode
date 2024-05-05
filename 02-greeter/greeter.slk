@@ -1,0 +1,5 @@
+# Simple Greeter program in SilkLang
+# Created by M.V.Harish Kumar on 05-05-2024
+
+let name := input("Please enter your name: ");
+print fmt("Hello, #! Hope you're fine", name);

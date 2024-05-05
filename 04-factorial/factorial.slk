@@ -1,0 +1,10 @@
+# SilkLang program to compute factorial
+# Written by M.V.Harish Kumar on 05-05-2024
+
+fun factorial(n) {
+    return 1 if n <= 1 else (n * factorial(n-1));
+}
+
+let n := int(input("Enter value for n: "));
+let ans := factorial(n);
+print fmt("#! = #", n, ans);
