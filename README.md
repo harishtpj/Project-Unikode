@@ -53,7 +53,7 @@ Here is also a table for programming languages and its extensions are given:
 
 [^1]: `.1.py` refers to the programs written in python v0.9.1.
 [^2]: Support for various architectures are been included.
-[^3]: [![SilkLang](https://github.com/harishtpj/SilkLang)] is a simple programming language written by me.
+[^3]: [SilkLang](https://github.com/harishtpj/SilkLang) is a simple programming language written by me.
 
 # ❓ How to use
 The repository has folders named with the programming problem(e.g. `01-hello-world`). Clicking into those 
