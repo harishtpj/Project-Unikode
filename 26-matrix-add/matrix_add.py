@@ -18,10 +18,7 @@ if __name__ == "__main__":
         mat1 = read_matrix(f, rows)
         f.readline() # For matrix seperator
         mat2 = read_matrix(f, rows)
-    res_mat = [[0]*cols for _ in range(rows)]
-    for i in range(rows):
-        for j in range(cols):
-            res_mat[i][j] = mat1[i][j] + mat2[i][j]
+    res_mat = [[a+b for a, b in zip(mat1[r], mat2[r])] for r in range(rows)]
     print("Sum of:")
     print_matrix(mat1)
     print("And")
