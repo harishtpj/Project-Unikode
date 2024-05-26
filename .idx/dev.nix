@@ -11,6 +11,7 @@
     pkgs.go
     pkgs.ruby
     pkgs.coffeescript
+    pkgs.lua
   ];
 
   # Sets environment variables in the workspace
@@ -19,6 +20,7 @@
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
       "enkia.tokyo-night"
+      "vscodevim.vim"
     ];
 
     # Enable previews

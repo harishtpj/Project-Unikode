@@ -8,5 +8,5 @@ console.log "File statistics for #{process.argv[2]}"
 console.log "\tNo. of lines in file: #{ftxt.split("\n").length}"
 console.log "\tNo. of words in file: #{ftxt.split(/\s+/).length}"
 console.log "\tNo. of bytes in file: #{ftxt.length}"
-(nAlnum++ if ch.match(/[A-Za-z0-9]/)) for ch, _ in ftxt
+nAlnum++ for ch, _ in ftxt when ch.match /[A-Za-z0-9]/
 console.log "\t% of alphanumeric characters in file: #{nAlnum/ftxt.length*100}"

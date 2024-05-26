@@ -12,5 +12,5 @@ This problem is created generally.
 
 
 # Important observations
-- NULL
+- The percentage of alphanumeric characters is shown slightly different in the awk script, which is slightly abnormal compared to other scripts
 
