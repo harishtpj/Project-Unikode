@@ -50,6 +50,7 @@ Here is also a table for programming languages and its extensions are given:
 | 28   | Elixir                      | 2014          | `.ex`, `.exs`  |
 | 29   | SilkLang[^3]                | 2024          | `.slk`         |
 | 30   | Fortran                     | 1957          | `.f90`         |
+| 31   | CoffeeScript                | 2013          | `.coffee`      |
 
 [^1]: `.1.py` refers to the programs written in python v0.9.1.
 [^2]: Support for various architectures are been included.
@@ -65,7 +66,13 @@ used to solve the problem in various languages.
 If you've spotted any bug, or got an simpler way to solve the problems listed, just create an issue. Your 
 ideas and corrections are welcome!
 
-# Gitpod access
-This project is openable through gitpod
+# Editor access
+This project is accessible through Google's Project IDX editor
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/harishtpj/Project-Unikode)
+<a href="https://idx.google.com/import?url=https%3A%2F%2Fgithub.com%2Fharishtpj%2FProject-Unikode%2F">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://cdn.idx.dev/btn/open_dark_32.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://cdn.idx.dev/btn/open_light_32.svg">
+    <img height="32" alt="Open in IDX" src="https://cdn.idx.dev/btn/open_purple_32.svg">
+  </picture>
+</a>
