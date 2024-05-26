@@ -69,7 +69,7 @@ ideas and corrections are welcome!
 # Editor access
 This project is accessible through Google's Project IDX editor
 
-<a href="https://idx.google.com/import?url=https%3A%2F%2Fgithub.com%2Fharishtpj%2FProject-Unikode%2F">
+<a href="https://idx.google.com/import?url=https%3A%2F%2Fgithub.com%2Fharishtpj%2FProject-Unikode">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://cdn.idx.dev/btn/open_dark_32.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://cdn.idx.dev/btn/open_light_32.svg">
