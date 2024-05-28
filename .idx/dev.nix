@@ -12,6 +12,10 @@
     pkgs.ruby
     pkgs.coffeescript
     pkgs.lua
+    pkgs.ocaml
+    pkgs.ocamlPackages.ocaml-lsp
+    pkgs.ocamlPackages.ocamlformat_0_26_1
+    pkgs.bintools
   ];
 
   # Sets environment variables in the workspace
@@ -21,6 +25,7 @@
     extensions = [
       "enkia.tokyo-night"
       "vscodevim.vim"
+      "ocamllabs.ocaml-platform"
     ];
 
     # Enable previews
