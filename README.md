@@ -13,6 +13,7 @@ The problems specified in this repository uses the following collections:
 1. [Simple Programming Problems](https://adriann.github.io/programming_problems.html) by Adrian Neumann
 2. [99 Functional Programming Problems](https://www.ic.unicamp.br/~meidanis/courses/mc336/problemas-lisp/L-99_Ninety-Nine_Lisp_Problems.html) - The given problems are for lisp, but it is the base for any functional programming language
 3. [Rosetta Code Tasks](https://rosettacode.org/wiki/Category:Programming_Tasks)
+4. [Project Euler](https://projecteuler.net/archives)
 
 # ⚙ Programming languages used
 Refer to my github profile [here](https://github.com/harishtpj) for languages used in this project.
