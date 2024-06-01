@@ -51,7 +51,8 @@ Here is also a table for programming languages and its extensions are given:
 | 28   | Elixir                      | 2014          | `.ex`, `.exs`  |
 | 29   | SilkLang[^3]                | 2024          | `.slk`         |
 | 30   | Fortran                     | 1957          | `.f90`         |
-| 31   | CoffeeScript                | 2013          | `.coffee`      |
+| 31   | CoffeeScript                | 2009          | `.coffee`      |
+| 32   | OCaml                       | 1996          | `.ml`          |
 
 [^1]: `.1.py` refers to the programs written in python v0.9.1.
 [^2]: Support for various architectures are been included.
