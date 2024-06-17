@@ -1,1 +1,1 @@
-Package { #name : #'Project-Unikode' }
+Package { #name : 'Project-Unikode' }

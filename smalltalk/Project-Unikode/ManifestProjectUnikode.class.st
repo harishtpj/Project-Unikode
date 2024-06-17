@@ -24,7 +24,9 @@ This pharo package is created to store smalltalk programs of the Project-Unikode
 - In general, to run any program, open playground and type `<ProgClassName> new start`. If there are commandline arguments, the signature of the method will be altered accordingly.
 "
 Class {
-	#name : #ManifestProjectUnikode,
-	#superclass : #PackageManifest,
-	#category : #'Project-Unikode-Manifest'
+	#name : 'ManifestProjectUnikode',
+	#superclass : 'PackageManifest',
+	#category : 'Project-Unikode-Manifest',
+	#package : 'Project-Unikode',
+	#tag : 'Manifest'
 }
