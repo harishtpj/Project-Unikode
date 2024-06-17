@@ -23,5 +23,4 @@ HelloWorld >> start [
 		clear;
 		show: 'Hello, world!';
 		cr.
-	^ true
 ]

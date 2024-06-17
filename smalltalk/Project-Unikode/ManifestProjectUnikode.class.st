@@ -30,3 +30,10 @@ Class {
 	#package : 'Project-Unikode',
 	#tag : 'Manifest'
 }
+
+{ #category : 'code-critics' }
+ManifestProjectUnikode class >> ruleCodeCruftLeftInMethodsRuleV1FalsePositive [
+
+	<ignoreForCoverage>
+	^ #(#(#(#RGMethodDefinition #(#MultTables #genTablesFor:till: #false)) #'2024-06-17T12:34:47.647+05:30') )
+]

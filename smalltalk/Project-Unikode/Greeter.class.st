@@ -25,5 +25,4 @@ Greeter >> start [
 		clear;
 		show: ('Hello, {1}! Hope you''re fine!' format: { name });
 		cr.
-	^ true
 ]
