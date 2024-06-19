@@ -24,16 +24,17 @@ This pharo package is created to store smalltalk programs of the Project-Unikode
 - In general, to run any program, open playground and type `<ProgClassName> new start`. If there are commandline arguments, the signature of the method will be altered accordingly.
 "
 Class {
-	#name : 'ManifestProjectUnikode',
-	#superclass : 'PackageManifest',
-	#category : 'Project-Unikode-Manifest',
-	#package : 'Project-Unikode',
-	#tag : 'Manifest'
+	#name : #ManifestProjectUnikode,
+	#superclass : #PackageManifest,
+	#category : 'Project-Unikode-Manifest'
 }
 
-{ #category : 'code-critics' }
+{ #category : #'code-critics' }
 ManifestProjectUnikode class >> ruleCodeCruftLeftInMethodsRuleV1FalsePositive [
+	^ #(#(#(#RGMethodDefinition #(#MultTables #genTablesFor:till: #false)) #'2024-06-17T12:34:47.647+05:30') #(#(#RGMethodDefinition #(#PrimeCheck #start #false)) #'2024-06-19T19:48:26.95+05:30') )
+]
 
-	<ignoreForCoverage>
-	^ #(#(#(#RGMethodDefinition #(#MultTables #genTablesFor:till: #false)) #'2024-06-17T12:34:47.647+05:30') )
+{ #category : #'code-critics' }
+ManifestProjectUnikode class >> ruleUnaryAccessingMethodWithoutReturnRuleV1FalsePositive [
+	^ #(#(#(#RGPackageDefinition #(#'Project-Unikode')) #'2024-06-19T19:48:34.547+05:30') )
 ]

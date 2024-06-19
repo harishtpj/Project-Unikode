@@ -9,26 +9,25 @@ Factorial new start
 ```
 "
 Class {
-	#name : 'Factorial',
-	#superclass : 'Object',
-	#category : 'Project-Unikode',
-	#package : 'Project-Unikode'
+	#name : #Factorial,
+	#superclass : #Object,
+	#category : #'Project-Unikode'
 }
 
-{ #category : 'helpers' }
-Factorial >> computeFactorial: n [
+{ #category : #helpers }
+Factorial class >> computeFact: n [
 	n <= 1
 		ifTrue: [ ^ 1 ]
-		ifFalse: [ ^ (n * (self computeFactorial: (n-1))) ]
+		ifFalse: [ ^ (n * (self computeFact: (n-1))) ]
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Factorial >> start [
 	"Smalltalk program to compute factorial"
 	"Written by M.V.Harish Kumar on 17-06-2024"
 	| n ans |
 	n := (UIManager default request: 'Enter value for n') asInteger.
-	ans := self computeFactorial: n.
+	ans := self class computeFact: n.
 	Transcript
 		clear;
 		show: ('{1}! = {2}' format: { n . ans });

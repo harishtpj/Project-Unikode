@@ -9,26 +9,25 @@ MultTables new start
 ```
 "
 Class {
-	#name : 'MultTables',
-	#superclass : 'Object',
-	#category : 'Project-Unikode',
-	#package : 'Project-Unikode'
+	#name : #MultTables,
+	#superclass : #Object,
+	#category : #'Project-Unikode'
 }
 
-{ #category : 'helpers' }
-MultTables >> genTablesFor: number till: times [
+{ #category : #helpers }
+MultTables class >> genTablesFor: number till: times [
 	Transcript clear; show: ('{1} Tables' format: { number }); cr; cr.
 	1 to: times do: [ :t |
 		Transcript show: ('{1} x {2} = {3}' format: { number . t . number * t }); cr.
 	].
 ]
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 MultTables >> start [
 	"Smalltalk program to generate multiplication tables"
 	"Written by M.V.Harish Kumar on 17-06-2024"
 	| n t |
 	n := (UIManager default request: 'Enter the no. to generate tables') asInteger.
 	t := (UIManager default request: 'Enter the no. till which to generate') asInteger.
-	self genTablesFor: n till: t.
+	self class genTablesFor: n till: t.
 ]

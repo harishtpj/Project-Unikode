@@ -9,13 +9,12 @@ Greeter new start
 ```
 "
 Class {
-	#name : 'Greeter',
-	#superclass : 'Object',
-	#category : 'Project-Unikode',
-	#package : 'Project-Unikode'
+	#name : #Greeter,
+	#superclass : #Object,
+	#category : 'Project-Unikode'
 }
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 Greeter >> start [
 	"Smalltalk program to greet user"
 	"Written by M.V.Harish Kumar on 17-06-2024"

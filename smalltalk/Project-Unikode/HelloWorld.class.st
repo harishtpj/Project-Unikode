@@ -10,13 +10,12 @@ HelloWorld new start
 ```
 "
 Class {
-	#name : 'HelloWorld',
-	#superclass : 'Object',
-	#category : 'Project-Unikode',
-	#package : 'Project-Unikode'
+	#name : #HelloWorld,
+	#superclass : #Object,
+	#category : 'Project-Unikode'
 }
 
-{ #category : 'accessing' }
+{ #category : #accessing }
 HelloWorld >> start [
 	"Smalltalk program to print 'Hello, world!' to stdout"
 	Transcript

@@ -9,29 +9,28 @@ SumToN new start
 ```
 "
 Class {
-	#name : 'SumToN',
-	#superclass : 'Object',
-	#category : 'Project-Unikode',
-	#package : 'Project-Unikode'
+	#name : #SumToN,
+	#superclass : #Object,
+	#category : #'Project-Unikode'
 }
 
-{ #category : 'accessing' }
+{ #category : #helpers }
+SumToN class >> sumTillN: n [
+	| sum |
+	sum := 0.
+	1 to: n do: [ :i | sum := sum + i ].
+	^ sum
+]
+
+{ #category : #accessing }
 SumToN >> start [
 	"Smalltalk program to find sum of natural numbers"
 	"Written by M.V.Harish Kumar on 17-06-2024"
 	| n ans |
 	n := (UIManager default request: 'Enter value for n') asInteger.
-	ans := self sumTillN: n.
+	ans := self class sumTillN: n.
 	Transcript
 		clear;
 		show: ('The sum from 1 to {1} is {2}' format: { n . ans });
 		cr.
-]
-
-{ #category : 'helpers' }
-SumToN >> sumTillN: n [
-	| sum |
-	sum := 0.
-	1 to: n do: [ :i | sum := sum + i ].
-	^ sum
 ]
