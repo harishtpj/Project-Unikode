@@ -53,6 +53,8 @@ Here is also a table for programming languages and its extensions are given:
 | 30   | Fortran                     | 1957          | `.f90`         |
 | 31   | CoffeeScript                | 2009          | `.coffee`      |
 | 32   | OCaml                       | 1996          | `.ml`          |
+| 33   | Io                          | 2002          | `.io`          |
+| 34   | Raku                        | 2015          | `.raku`        |
 
 [^1]: `.1.py` refers to the programs written in python v0.9.1.
 [^2]: Support for various architectures are been included.
