@@ -11,4 +11,4 @@ function sumToN($n) {
 
 $n = +readline("Enter value for `n`: ");
 $ans = sumToN($n);
-echo "The sum from 1 to $n is $ans";
+echo "The sum from 1 to $n is $ans\n";
