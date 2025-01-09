@@ -1,4 +1,4 @@
 # Perl Program to print "Hello, world!" in stdout
-use warnings;
+use v5.40;
 
-print("Hello, World!\n");
+say "Hello, World!";
