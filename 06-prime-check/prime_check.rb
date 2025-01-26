@@ -3,15 +3,11 @@
 # Uses the O(sqrt(n)) algorithm
 
 def prime?(n)
-    if n == 2
-        return true
-    end
-
+    return true if n == 2
+    
     sqrt_num = Math.sqrt(n)
     (2..sqrt_num).each do |i|
-        if n % i == 0
-            return false
-        end
+        return false if  n % i == 0
     end
 
     return n > 1
