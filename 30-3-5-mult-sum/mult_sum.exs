@@ -3,4 +3,4 @@
 1..1000
 |> Enum.filter(&(rem(&1,3) == 0 || rem(&1,5) == 0))
 |> Enum.sum
-|> (fn x -> IO.puts "Sum of all multiples of 3 or 5 under 1000: #{x}" end).()
+|> then(&(IO.puts "Sum of all multiples of 3 or 5 under 1000: #{&1}"))
