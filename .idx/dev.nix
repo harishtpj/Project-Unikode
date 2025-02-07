@@ -13,6 +13,7 @@
     pkgs.coffeescript
     pkgs.lua
     pkgs.ocaml
+    pkgs.elixir
     pkgs.ocamlPackages.ocaml-lsp
     pkgs.ocamlPackages.ocamlformat_0_26_1
     pkgs.bintools
@@ -26,6 +27,7 @@
       "enkia.tokyo-night"
       "vscodevim.vim"
       "ocamllabs.ocaml-platform"
+      "elixir-lsp.elixir-ls"
     ];
 
     # Enable previews
