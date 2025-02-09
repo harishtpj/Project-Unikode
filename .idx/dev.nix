@@ -25,7 +25,6 @@
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
       "enkia.tokyo-night"
-      "vscodevim.vim"
       "ocamllabs.ocaml-platform"
       "elixir-lsp.elixir-ls"
     ];
