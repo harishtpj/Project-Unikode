@@ -24,8 +24,8 @@
   idx = {
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
-      "enkia.tokyo-night"
       "ocamllabs.ocaml-platform"
+      "erlang-ls.erlang-ls"
       "elixir-lsp.elixir-ls"
     ];
 
