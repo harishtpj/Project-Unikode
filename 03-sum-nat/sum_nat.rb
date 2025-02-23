@@ -2,14 +2,9 @@
 # Created by M.V.Harish Kumar on 10-09-2023
 
 def sum_to_n(n)
-    sum = 0
-    (n+1).times do |i|
-        sum += i
-    end
-    return sum
+    (1..n).inject(:+)
 end
 
 print "Enter value for `n`: "
 n = gets.to_i
-ans = sum_to_n n
-puts "The sum from 1 to #{n} is #{ans}"
+puts "The sum from 1 to #{n} is #{sum_to_n n}"
