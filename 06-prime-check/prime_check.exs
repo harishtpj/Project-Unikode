@@ -5,7 +5,7 @@ defmodule Check do
   def prime?(1), do: false
   def prime?(2), do: true
   def prime?(n) when n > 1 do
-    2..(trunc(:math.sqrt n)) |> Enum.all?(&(rem(n, &1) != 0))
+    2..(ceil(:math.sqrt n)) |> Enum.all?(&(rem(n, &1) != 0))
   end
 end
 

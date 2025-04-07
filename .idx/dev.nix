@@ -13,6 +13,7 @@
     pkgs.coffeescript
     pkgs.lua
     pkgs.ocaml
+    pkgs.elixir
     pkgs.ocamlPackages.ocaml-lsp
     pkgs.ocamlPackages.ocamlformat_0_26_1
     pkgs.bintools
@@ -23,9 +24,9 @@
   idx = {
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
-      "enkia.tokyo-night"
-      "vscodevim.vim"
       "ocamllabs.ocaml-platform"
+      "erlang-ls.erlang-ls"
+      "elixir-lsp.elixir-ls"
     ];
 
     # Enable previews
