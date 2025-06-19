@@ -2,8 +2,12 @@
 # Written by M.V.Harish Kumar on 18-06-2025
 import json
 import sys
+import re
 
 telebook = {}
+
+def is_valid_number(number):
+    return bool(re.match(r"^(\+?91)?\d{10}$", number))
 
 def print_banner(data, title=False):
     print(data)
@@ -12,8 +16,12 @@ def print_banner(data, title=False):
 def add():
     print_banner("Add contact")
     name = input("Enter contact name: ")
-    telebook[name] = input("Enter contact no: ")
-    print("Added contact successfully")
+    number = input("Enter contact no: ")
+    if is_valid_number(number):
+        telebook[name] = number
+        print("Added contact successfully")
+    else:
+        print("Invalid Number format")
 
 def view():
     print_banner("View contact")
@@ -35,8 +43,13 @@ def update():
         print(f"- {k}: {v}")
     cname = input("Select contact to update: ")
     try:
-        telebook[cname] = input(f"Enter new number for {telebook[cname]}: ")
-        print("Updated contact successfully")
+        telebook[cname]
+        number = input(f"Enter new number for {cname}: ")
+        if is_valid_number(number): 
+            telebook[cname] = number
+            print("Updated contact successfully")
+        else:
+            print("Invalid Number format")
     except KeyError:
         print("Attempt to access non-existant contact")
 
@@ -66,6 +79,7 @@ def persist():
     fname = input("Give the file name to save: ")
     with open(fname, 'w') as f:
         json.dump(telebook, f)
+    print("Saved to file successfully")
 
 
 if __name__ == '__main__':
